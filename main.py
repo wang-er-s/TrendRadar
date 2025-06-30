@@ -2082,7 +2082,7 @@ class ReportGenerator:
                 webhook_url, headers=headers, json=payload, proxies=proxies, timeout=30
             )
             if response.status_code == 200:
-                print(f"飞书通知发送成功 [{report_type}]")
+                print(f"飞书{webhook_url}通知发送成功 [{report_type}]")
                 return True
             else:
                 print(
