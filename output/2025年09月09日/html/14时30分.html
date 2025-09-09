@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 85</p><p>生成时间: 2025-09-09 14:30:58</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国</td>
+                    <td class="count">5</td>
+                    <td class="percentage">5.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7547635325330394663/" target="_blank" class="news-link">美国宣布制裁东南亚诈骗集团</a> [6] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755201" target="_blank" class="news-link">美国“股债双升”对应“两种叙事”：美债定价“就业放缓”，美股定价“经济加速”</a> [10] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2139213" target="_blank" class="news-link">特朗普希望落空？关税大棒下美国农业贸易逆差再创新高</a> [11] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7547951011587968548/" target="_blank" class="news-link">美国防部更名是想发动战争吗</a> [13] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2139487" target="_blank" class="news-link">美国就业数据下修近百万人？今日重磅报告或将引爆市场</a> [13] <font color='grey'>- 14时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">小米 雷军 xiaomi</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%8E%8B%E8%85%BE%E5%B0%8F%E7%B1%B3%E5%B7%A5%E4%BD%9C%E7%BB%8F%E5%8E%86%E9%85%8D%E6%B5%81%E6%B1%97%E8%A1%A8%E6%83%85%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D9%26band_rank%3D9%26filter_type%3Drealtimehot%26c_type%3D31%26flag%3D1%26lcate%3D5001%26cate%3D5001%26pos%3D10%26stream_entry_id%3D31%26q%3D%2523%25E7%258E%258B%25E8%2585%25BE%25E5%25B0%258F%25E7%25B1%25B3%25E5%25B7%25A5%25E4%25BD%259C%25E7%25BB%258F%25E5%258E%2586%25E9%2585%258D%25E6%25B5%2581%25E6%25B1%2597%25E8%25A1%25A8%25E6%2583%2585%2523%26dgr%3D0%26display_time%3D1757399308%26pre_seqid%3D175739930835802031218152" target="_blank" class="news-link">王腾小米工作经历配流汗表情</a> [9] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7547299243200217126/" target="_blank" class="news-link">小米已申请多个保密专利</a> [16] <font color='grey'>- 14时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=iPhone17%E6%88%96%E6%88%90%E5%9B%BD%E5%86%85%E9%A6%96%E6%AC%BE%E6%97%A0%E5%8D%A1%E6%A7%BD%E6%89%8B%E6%9C%BA" target="_blank" class="news-link">iPhone17或成国内首款无卡槽手机</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2139211" target="_blank" class="news-link">工信部：我国已具备人形机器人全产业链制造能力</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7547707985397760019/" target="_blank" class="news-link">福耀科技大学食堂荤菜五块钱一份</a> [14] <font color='grey'>- 14时30分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
