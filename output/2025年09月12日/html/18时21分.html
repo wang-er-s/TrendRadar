@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 107</p><p>生成时间: 2025-09-12 18:21:22</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国</td>
+                    <td class="count">5</td>
+                    <td class="percentage">4.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mahMjgNUTG" target="_blank" class="news-link">美国大豆进入收获季，最大买家中国“未下一单”</a> [7] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755451" target="_blank" class="news-link">隔夜，美国8月CPI为美联储降息“铺平道路”</a> [10] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E7%AC%AC2%E6%9E%B6B-21%E8%BD%B0%E7%82%B8%E6%9C%BA%E9%A6%96%E9%A3%9E" target="_blank" class="news-link">美国第2架B-21轰炸机首飞</a> [17] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7548977743543730215/" target="_blank" class="news-link">美国警告外籍网民就柯克遇刺管住嘴</a> [18] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7549090099107991081/" target="_blank" class="news-link">美国仇恨政治愈演愈烈了吗</a> [22] <font color='grey'>- 18时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.87%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3DiPhone14%E6%9C%BA%E4%B8%BB%E6%98%AF%E7%81%B5%E5%8A%A8%E5%B2%9B%E5%B2%9B%E4%B8%BB&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26stream_entry_id%3D31%26lcate%3D5001%26realpos%3D8%26q%3DiPhone14%25E6%259C%25BA%25E4%25B8%25BB%25E6%2598%25AF%25E7%2581%25B5%25E5%258A%25A8%25E5%25B2%259B%25E5%25B2%259B%25E4%25B8%25BB%26pos%3D8%26band_rank%3D8%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26flag%3D1%26display_time%3D1757671272%26pre_seqid%3D1757671272009017237261" target="_blank" class="news-link">iPhone14机主是灵动岛岛主</a> [8] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPhone17%E7%B3%BB%E5%88%97%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97" target="_blank" class="news-link">iPhone17系列选购指南</a> [12] <font color='grey'>- 18时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">芯片 光刻机</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.87%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755456" target="_blank" class="news-link">恒科指涨1.7%，阿里创近4年新高、百度大涨8%，创业板跌逾1%，芯片股爆发、寒武纪重夺“股王”宝座</a> [8] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2143620" target="_blank" class="news-link">【每日收评】三大指数冲高回落全线收跌，全市场超3300股飘绿，存储芯片概念逆势活跃</a> [9] <font color='grey'>- 18时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.93%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA%E6%96%B0%E4%B8%89%E6%8A%98%E5%8F%A0%E5%BC%80%E5%94%AE%E7%8E%B0%E5%9C%BA%E4%BA%BA%E4%BB%8E%E4%BC%97%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26stream_entry_id%3D31%26lcate%3D5001%26realpos%3D28%26q%3D%2523%25E5%258D%258E%25E4%25B8%25BA%25E6%2596%25B0%25E4%25B8%2589%25E6%258A%2598%25E5%258F%25A0%25E5%25BC%2580%25E5%2594%25AE%25E7%258E%25B0%25E5%259C%25BA%25E4%25BA%25BA%25E4%25BB%258E%25E4%25BC%2597%2523%26pos%3D28%26band_rank%3D28%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26flag%3D1%26display_time%3D1757671272%26pre_seqid%3D1757671272009017237261" target="_blank" class="news-link">华为新三折叠开售现场人从众</a> [28] <font color='grey'>- 18时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.93%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2143191" target="_blank" class="news-link">“AI之王”当之无愧！英伟达“最大空头”倒戈上调评级：还能再涨19%</a> [8] <font color='grey'>- 18时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.93%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E8%8A%B1%E5%B0%91%E6%89%BE%E6%89%8B%E6%9C%BA%E8%BF%99%E6%AE%B5%E9%BE%9A%E4%BF%8AA%E7%88%86%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26stream_entry_id%3D31%26lcate%3D5001%26realpos%3D25%26q%3D%25E8%258A%25B1%25E5%25B0%2591%25E6%2589%25BE%25E6%2589%258B%25E6%259C%25BA%25E8%25BF%2599%25E6%25AE%25B5%25E9%25BE%259A%25E4%25BF%258AA%25E7%2588%2586%25E4%25BA%2586%26pos%3D25%26band_rank%3D25%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26flag%3D1%26display_time%3D1757671272%26pre_seqid%3D1757671272009017237261" target="_blank" class="news-link">花少找手机这段龚俊A爆了</a> [25] <font color='grey'>- 18时21分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
